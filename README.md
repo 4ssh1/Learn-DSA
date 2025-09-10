@@ -1,11 +1,11 @@
 # Learn-DSA
 
-# Contributing Guidelines
+## Contributing Guidelines
 
 Welcome to the DSA Repository 🎉
 This repo is a collaborative effort where we solve Data Structures & Algorithms problems in multiple languages. Please follow these rules to keep everything organized.
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
 Each problem lives in its own folder, grouped by topic. Inside, we keep language-specific subfolders.
 
@@ -32,10 +32,10 @@ dsa-repo/
 
 ```
 
-# How to Contribute
+## How to Contribute
 1. Fork & Clone
 
    ```bash
-   git clone <your-fork-url>
+   git clone https://github.com/4ssh1/Learn-DSA.git
    cd dsa-repo
    ```
