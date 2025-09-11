@@ -12,27 +12,33 @@ Each problem lives in its own folder, grouped by topic. Inside, we keep language
 ```
 Learn-DSA/
 │
-├── PROBLEM_ONE/
-│   ├── two_sum/
-│   │   ├── cpp/
-│   │   │   └── solution.cpp
-│   │   ├── python/
-│   │   │   └── solution.py
-│   │   ├── java/
-│   │   │   └── Solution.java
-│   │   └── README.md   <-- problem statement + approach
-│   ├── inorder_traversal/
-│   │   ├── python/
-│   │   │   └── solution.py
-│   │   └── README.md
-├── PROBLEM_TWO/
-│   ├── inorder_traversal/
-│   │   ├── python/
-│   │   │   └── solution.py
-│   │   └── README.md
-│
-└── README.md   <-- repo overview
-
+PROBLEM_ONE
+├── search_in_sorted_array
+│   ├── cpp
+│   ├── c_sharp
+│   ├── js
+│   ├── python
+│   ├── README.md
+├── two_sum
+│   ├── cpp
+│   ├── c_sharp
+│   ├── js
+│   ├── python
+│   ├── README.md
+PROBLEM_TWO
+├── container_with_most_water
+│   ├── cpp
+│   ├── c_sharp
+│   ├── js
+│   ├── python
+│   ├── README.md
+├── median_of_two_sorted_arrays
+│   ├── cpp
+│   ├── c_sharp
+│   ├── js
+│   ├── python
+│   ├── README.md
+README.md
 ```
 
 ## How to Contribute
