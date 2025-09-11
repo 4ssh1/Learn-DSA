@@ -10,9 +10,9 @@ This repo is a collaborative effort where we solve Data Structures & Algorithms 
 Each problem lives in its own folder, grouped by topic. Inside, we keep language-specific subfolders.
 
 ```
-dsa-repo/
+Learn-DSA/
 │
-├── arrays/
+├── PROBLEM_ONE/
 │   ├── two_sum/
 │   │   ├── cpp/
 │   │   │   └── solution.cpp
@@ -21,8 +21,11 @@ dsa-repo/
 │   │   ├── java/
 │   │   │   └── Solution.java
 │   │   └── README.md   <-- problem statement + approach
-│
-├── trees/
+│   ├── inorder_traversal/
+│   │   ├── python/
+│   │   │   └── solution.py
+│   │   └── README.md
+├── PROBLEM_TWO/
 │   ├── inorder_traversal/
 │   │   ├── python/
 │   │   │   └── solution.py
@@ -37,7 +40,7 @@ dsa-repo/
 
    ```bash
    git clone https://github.com/4ssh1/Learn-DSA.git
-   cd dsa-repo
+   cd Learn-DSA
    ```
 
 
