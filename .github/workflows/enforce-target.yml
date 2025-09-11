@@ -22,6 +22,12 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: number,
-              body: `❌ Hi @${pr.user.login}, thanks for your contribution!  This pull request is targeting **\`${base}\`**, but this repo only allows PRs into **\`main\`**.  Please click "Edit" next to the PR title and change the base branch to \`main\`.`);
+              body: [
+                `❌ Hi @${pr.user.login}, thanks for your contribution!`,
+                ``,
+                `This pull request is targeting **${base}**, but this repo only allows PRs into **main**.`,
+                `Please click "Edit" next to the PR title and change the base branch to main.`
+              ].join("\n")
+            });
 
             core.setFailed(`PR targets '${base}', must target 'main'`);
