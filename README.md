@@ -1,5 +1,7 @@
 # Learn-DSA
 
+---
+
 ## Contributing Guidelines
 
 Welcome to the DSA Repository 🎉
@@ -41,7 +43,10 @@ PROBLEM_TWO
 README.md
 ```
 
+---
+
 ## How to Contribute
+
 ### 1. Fork & Clone
 
    ```bash
@@ -49,19 +54,21 @@ README.md
    cd Learn-DSA
    ```
 
+---
+
 
 ### 2. Create a Branch
 
-Name your branch after your username + problem:
+Name your branch after your username:
 
 ```bash
-   git checkout -b <username>-<problem-name>
+   git checkout -b <username>
 ```
 Example:
 
-git checkout -b alice-two-sum
+git checkout -b sarah
 
-
+---
 
 ### 3. Add Your Solution
 
@@ -71,7 +78,8 @@ Navigate to the correct topic folder (e.g. PROBLEM_ONE/two_sum ).
 
 Add comments top explain your approach, time and space complexity
 
-
+---
+ 
 ### 4. Commit
 
 Use clear commit messages:
@@ -82,6 +90,7 @@ Use clear commit messages:
 
 ```
 
+---
 
 ### 5. Push & Pull Request
 
@@ -97,11 +106,24 @@ Use clear commit messages:
 
 - One problem per folder → Multiple solutions go inside language subfolders.
 
-- Don’t overwrite others’ work → If the folder already exists, just add your solution inside the correct language folder.
-
 - Commit messages should be descriptive.
 
 - Keep code clean & readable → Use proper formatting.
+  
+- Do NOT commit directly to main.
+
+- Make sure your code runs without errors.
+
+
+## 📥 Pull Request Rules
+
+- Always open PRs into main (base branch must be main).
+
+- Your PR will be blocked if it targets any other branch.
+
+- Every PR must be reviewed and approved by someone else before merging.
+
+- Use clear titles like: Add Python solution for two_sum
 
 
 ## 👥 Code Reviews
@@ -111,3 +133,6 @@ All PRs will be reviewed before merging.
 Reviewers may request changes for formatting, naming, or structure.
 
 Once approved, your PR will be merged into main.
+
+
+Thanks for contributing.
