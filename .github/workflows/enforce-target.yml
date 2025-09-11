@@ -1,0 +1,15 @@
+name: Enforce Target Branch
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  check-target:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ensure PR targets main
+        if: github.base_ref != 'main'
+        run: |
+          echo " Pull requests must target the 'main' branch."
+          exit 1
