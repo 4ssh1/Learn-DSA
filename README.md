@@ -65,7 +65,7 @@ git checkout -b alice-two-sum
 
 ### 3. Add Your Solution
 
-Navigate to the correct topic folder (e.g. arrays/).
+Navigate to the correct topic folder (e.g. PROBLEM_ONE/two_sum ).
 
 ### TIP
 
@@ -78,7 +78,7 @@ Use clear commit messages:
 
 ```bash
    git add .
-   git commit -m "Add [arrays/two_sum] solution in Python"
+   git commit -m "Add two_sum solution in Python"
 
 ```
 
