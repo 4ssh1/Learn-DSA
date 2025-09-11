@@ -10,26 +10,35 @@ This repo is a collaborative effort where we solve Data Structures & Algorithms 
 Each problem lives in its own folder, grouped by topic. Inside, we keep language-specific subfolders.
 
 ```
-dsa-repo/
+Learn-DSA/
 │
-├── arrays/
-│   ├── two_sum/
-│   │   ├── cpp/
-│   │   │   └── solution.cpp
-│   │   ├── python/
-│   │   │   └── solution.py
-│   │   ├── java/
-│   │   │   └── Solution.java
-│   │   └── README.md   <-- problem statement + approach
-│
-├── trees/
-│   ├── inorder_traversal/
-│   │   ├── python/
-│   │   │   └── solution.py
-│   │   └── README.md
-│
-└── README.md   <-- repo overview
-
+PROBLEM_ONE
+├── search_in_sorted_array
+│   ├── cpp
+│   ├── c_sharp
+│   ├── js
+│   ├── python
+│   ├── README.md
+├── two_sum
+│   ├── cpp
+│   ├── c_sharp
+│   ├── js
+│   ├── python
+│   ├── README.md
+PROBLEM_TWO
+├── container_with_most_water
+│   ├── cpp
+│   ├── c_sharp
+│   ├── js
+│   ├── python
+│   ├── README.md
+├── median_of_two_sorted_arrays
+│   ├── cpp
+│   ├── c_sharp
+│   ├── js
+│   ├── python
+│   ├── README.md
+README.md
 ```
 
 ## How to Contribute
@@ -37,7 +46,7 @@ dsa-repo/
 
    ```bash
    git clone https://github.com/4ssh1/Learn-DSA.git
-   cd dsa-repo
+   cd Learn-DSA
    ```
 
 
@@ -56,7 +65,7 @@ git checkout -b alice-two-sum
 
 ### 3. Add Your Solution
 
-Navigate to the correct topic folder (e.g. arrays/).
+Navigate to the correct topic folder (e.g. PROBLEM_ONE/two_sum ).
 
 ### TIP
 
@@ -69,7 +78,7 @@ Use clear commit messages:
 
 ```bash
    git add .
-   git commit -m "Add [arrays/two_sum] solution in Python"
+   git commit -m "Add two_sum solution in Python"
 
 ```
 
