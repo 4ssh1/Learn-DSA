@@ -5,8 +5,8 @@ I need to reach the target, then check if I've already seen that complement.
 If yes, I return both indices. This gives me O(n) time complexity instead of O(n²).
 
 Why This Solution is Efficient
-Time Complexity: O(n) - We only go through the array once
-Space Complexity: O(n) - In worst case, we store all numbers in our hash map
+Time Complexity: O(n) - i only go through the array once
+Space Complexity: O(n) - In worst case, i store all numbers in the hash map
 */
 
 
