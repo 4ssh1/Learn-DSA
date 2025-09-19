@@ -127,7 +127,7 @@ Use clear commit messages:
 - Make sure your code runs without errors.
 
 
-## 📥 Pull Request Rules
+### 📥 Pull Request Rules
 
 - Always open PRs into main (base branch must be main).
 
