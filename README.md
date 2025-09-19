@@ -1,11 +1,11 @@
 # Learn-DSA
+Welcome to the DSA Repository 🎉
+This repo is a collaborative effort where we solve Data Structures & Algorithms problems in multiple languages. Please follow these rules to keep everything organized.
 
----
 
 ## Contributing Guidelines
 
-Welcome to the DSA Repository 🎉
-This repo is a collaborative effort where we solve Data Structures & Algorithms problems in multiple languages. Please follow these rules to keep everything organized.
+Working on DSA? Check out Learn-DSA, a collaborative repo with solutions in Python, C++, JS, and C#. Our Wiki has detailed problem explanations and guides: [Explore the Wiki for Detailed Documentation](https://github.com/4ssh1/Learn-DSA/wiki)
 
 ## 📂 Repository Structure
 
