@@ -57,7 +57,7 @@ README.md
 
 ## Contributing
 
-## How to Contribute
+### How to Contribute
 
 ### 1. Fork & Clone
 
