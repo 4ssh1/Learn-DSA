@@ -1,0 +1,15 @@
+# C#
+bin/
+obj/
+
+# Python
+__pycache__/
+*.pyc
+
+# JavaScript
+node_modules/
+dist/
+
+# C++
+*.o
+*.exe
