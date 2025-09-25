@@ -15,25 +15,15 @@ Each problem lives in its own folder, grouped by topic. Inside, we keep language
 01-problem-one
 ├── search-in-sorted-array
 │   ├── c-sharp
-│   │   ├── .gitkeep
-│   │   ├── rolex
-│   │   │   ├── Program.cs
-│   │   │   ├── rolex.csproj
 │   ├── cpp
-│   │   ├── .gitkeep
 │   ├── js
-│   │   ├── .gitkeep
-│   │   ├── frutfl.js
-│   │   ├── itsTari.js
 │   ├── python
-│   │   ├── sarah.solution.py
 │   ├── README.md
 ├── two-sum
 │   ├── c-sharp
 │   ├── cpp
 │   ├── js
 │   ├── python
-│   │   ├── sarah.solution.py
 │   ├── README.md
 02-problem-two
 ├── container-with-most-water
