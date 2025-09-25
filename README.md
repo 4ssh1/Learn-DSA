@@ -95,7 +95,7 @@ git checkout -b sarah
 
 ### 3. Add Your Solution
 
-Navigate to the correct topic folder (e.g. PROBLEM_ONE/two_sum ).
+Navigate to the correct topic folder (e.g. 01-problem-one/two-sum).
 
 ### TIP
 
@@ -109,7 +109,7 @@ Use clear commit messages:
 
 ```bash
    git add .
-   git commit -m "Add two_sum solution in Python"
+   git commit -m "Add two-sum solution in Python"
 
 ```
 
