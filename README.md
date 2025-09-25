@@ -9,44 +9,55 @@ Working on DSA? Check out Learn-DSA, a collaborative repo with solutions in Pyth
 Each problem lives in its own folder, grouped by topic. Inside, we keep language-specific subfolders.
 
 ```
-Learn-DSA/
-│
-PROBLEM_ONE
-├── search_in_sorted_array
+.
+.github
+├── workflows
+01-problem-one
+├── search-in-sorted-array
+│   ├── c-sharp
+│   │   ├── .gitkeep
+│   │   ├── rolex
+│   │   │   ├── Program.cs
+│   │   │   ├── rolex.csproj
+│   ├── cpp
+│   │   ├── .gitkeep
+│   ├── js
+│   │   ├── .gitkeep
+│   │   ├── frutfl.js
+│   │   ├── itsTari.js
+│   ├── python
+│   │   ├── sarah.solution.py
+│   ├── README.md
+├── two-sum
+│   ├── c-sharp
+│   ├── cpp
+│   ├── js
+│   ├── python
+│   │   ├── sarah.solution.py
+│   ├── README.md
+02-problem-two
+├── container-with-most-water
+│   ├── c-sharp
+│   ├── cpp
+│   ├── js
+│   ├── python
+│   ├── README.md
+├── median-of-two-sorted-arrays
 │   ├── cpp
 │   ├── c_sharp
 │   ├── js
 │   ├── python
 │   ├── README.md
-├── two_sum
+03-problem-three
+├── best-time-to-buy-stock
+│   ├── c-sharp
 │   ├── cpp
-│   ├── c_sharp
 │   ├── js
 │   ├── python
 │   ├── README.md
-PROBLEM_TWO
-├── container_with_most_water
+├── first-missing-positive
+│   ├── c-sharp
 │   ├── cpp
-│   ├── c_sharp
-│   ├── js
-│   ├── python
-│   ├── README.md
-├── median_of_two_sorted_arrays
-│   ├── cpp
-│   ├── c_sharp
-│   ├── js
-│   ├── python
-│   ├── README.md
-PROBLEM_THREE
-├── best_time_to_buy_and_sell_stock
-│   ├── cpp
-│   ├── c_sharp
-│   ├── js
-│   ├── python
-│   ├── README.md
-├── first_missing_positive
-│   ├── cpp
-│   ├── c_sharp
 │   ├── js
 │   ├── python
 │   ├── README.md
