@@ -1,55 +1,53 @@
 # Learn-DSA
-
----
-
-## Contributing Guidelines
-
 Welcome to the DSA Repository 🎉
 This repo is a collaborative effort where we solve Data Structures & Algorithms problems in multiple languages. Please follow these rules to keep everything organized.
+
+Working on DSA? Check out Learn-DSA, a collaborative repo with solutions in Python, C++, JS, and C#. Our Wiki has detailed problem explanations and guides: [Explore the Wiki for Detailed Documentation](https://github.com/4ssh1/Learn-DSA/wiki)
 
 ## 📂 Repository Structure
 
 Each problem lives in its own folder, grouped by topic. Inside, we keep language-specific subfolders.
 
 ```
-Learn-DSA/
-│
-PROBLEM_ONE
-├── search_in_sorted_array
+.
+.github
+├── workflows
+01-problem-one
+├── search-in-sorted-array
+│   ├── c-sharp
+│   ├── cpp
+│   ├── js
+│   ├── python
+│   ├── README.md
+├── two-sum
+│   ├── c-sharp
+│   ├── cpp
+│   ├── js
+│   ├── python
+│   ├── README.md
+02-problem-two
+├── container-with-most-water
+│   ├── c-sharp
+│   ├── cpp
+│   ├── js
+│   ├── python
+│   ├── README.md
+├── median-of-two-sorted-arrays
 │   ├── cpp
 │   ├── c_sharp
 │   ├── js
 │   ├── python
 │   ├── README.md
-├── two_sum
+03-problem-three
+├── best-time-to-buy-stock
+│   ├── c-sharp
 │   ├── cpp
-│   ├── c_sharp
 │   ├── js
 │   ├── python
 │   ├── README.md
-PROBLEM_TWO
-├── container_with_most_water
+├── first-missing-positive
+│   ├── c-sharp
 │   ├── cpp
-│   ├── c_sharp
-│   ├── js
-│   ├── python
-│   ├── README.md
-├── median_of_two_sorted_arrays
-│   ├── cpp
-│   ├── c_sharp
-│   ├── js
-│   ├── python
-│   ├── README.md
-PROBLEM_THREE
-├── best_time_to_buy_and_sell_stock
-│   ├── cpp
-│   ├── c_sharp
-│   ├── js
-│   ├── python
-│   ├── README.md
-├── first_missing_positive
-│   ├── cpp
-│   ├── c_sharp
 │   ├── js
 │   ├── python
 │   ├── README.md
@@ -58,7 +56,9 @@ README.md
 
 ---
 
-## How to Contribute
+## Contributing
+
+### How to Contribute
 
 ### 1. Fork & Clone
 
@@ -85,7 +85,7 @@ git checkout -b sarah
 
 ### 3. Add Your Solution
 
-Navigate to the correct topic folder (e.g. PROBLEM_ONE/two_sum ).
+Navigate to the correct topic folder (e.g. 01-problem-one/two-sum).
 
 ### TIP
 
@@ -99,7 +99,7 @@ Use clear commit messages:
 
 ```bash
    git add .
-   git commit -m "Add two_sum solution in Python"
+   git commit -m "Add two-sum solution in Python"
 
 ```
 
@@ -128,7 +128,7 @@ Use clear commit messages:
 - Make sure your code runs without errors.
 
 
-## 📥 Pull Request Rules
+### 📥 Pull Request Rules
 
 - Always open PRs into main (base branch must be main).
 
