@@ -53,6 +53,22 @@ Each problem lives in its own folder, grouped by topic. Inside, we keep language
 │   ├── python
 │   ├── README.md
 README.md
+├── 04-problem-four/
+│   ├── binary-search/
+│   │   ├── c-sharp/
+│   │   ├── cpp/
+│   │   ├── js/
+│   │   ├── python/
+│   │   └── README.MD
+│   ├── linear-search/
+│   │   ├── c-sharp/
+│   │   ├── cpp/
+│   │   ├── js/
+│   │   ├── python/
+│   │   └── README.MD
+│   └── READ.md
+├── .gitignore
+└── README.md
 ```
 
 ---
