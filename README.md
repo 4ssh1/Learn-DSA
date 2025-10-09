@@ -1,4 +1,5 @@
 # Learn-DSA
+
 Welcome to the DSA Repository 🎉
 This repo is a collaborative effort where we solve Data Structures & Algorithms problems in multiple languages. Please follow these rules to keep everything organized.
 
@@ -73,19 +74,53 @@ README.md
 
 ---
 
+## 🚀 Running Solutions
+
+### C# Solutions
+
+**Requirements:**
+
+- .NET SDK 6.0 or higher ([Download here](https://dotnet.microsoft.com/download))
+
+**Verify .NET installation:**
+
+```bash
+dotnet --version
+```
+
+**To run a C# solution:**
+
+1. Navigate to the C# solution folder:
+
+   ```bash
+   cd 01-problem-one/two-sum/c-sharp/<username>
+   ```
+
+2. Build the project:
+
+   ```bash
+   dotnet build
+   ```
+
+3. Run the program:
+   ```bash
+   dotnet run
+   ```
+
+---
+
 ## Contributing
 
 ### How to Contribute
 
 ### 1. Fork & Clone
 
-   ```bash
-   git clone https://github.com/4ssh1/Learn-DSA.git
-   cd Learn-DSA
-   ```
+```bash
+git clone https://github.com/4ssh1/Learn-DSA.git
+cd Learn-DSA
+```
 
 ---
-
 
 ### 2. Create a Branch
 
@@ -94,6 +129,7 @@ Name your branch after your username:
 ```bash
    git checkout -b <username>
 ```
+
 Example:
 
 git checkout -b sarah
@@ -109,7 +145,7 @@ Navigate to the correct topic folder (e.g. 01-problem-one/two-sum).
 Add comments top explain your approach, time and space complexity
 
 ---
- 
+
 ### 4. Commit
 
 Use clear commit messages:
@@ -131,7 +167,6 @@ Use clear commit messages:
 
 ### Then open a Pull Request (PR) into main.
 
-
 ## ✅ Rules
 
 - One problem per folder → Multiple solutions go inside language subfolders.
@@ -139,11 +174,9 @@ Use clear commit messages:
 - Commit messages should be descriptive.
 
 - Keep code clean & readable → Use proper formatting.
-  
 - Do NOT commit directly to main.
 
 - Make sure your code runs without errors.
-
 
 ### 📥 Pull Request Rules
 
@@ -155,7 +188,6 @@ Use clear commit messages:
 
 - Use clear titles like: Add Python solution for two_sum
 
-
 ## 👥 Code Reviews
 
 All PRs will be reviewed before merging.
@@ -163,6 +195,5 @@ All PRs will be reviewed before merging.
 Reviewers may request changes for formatting, naming, or structure.
 
 Once approved, your PR will be merged into main.
-
 
 Thanks for contributing.
