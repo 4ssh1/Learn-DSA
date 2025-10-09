@@ -74,41 +74,6 @@ README.md
 
 ---
 
-## 🚀 Running Solutions
-
-### C# Solutions
-
-**Requirements:**
-
-- .NET SDK 6.0 or higher ([Download here](https://dotnet.microsoft.com/download))
-
-**Verify .NET installation:**
-
-```bash
-dotnet --version
-```
-
-**To run a C# solution:**
-
-1. Navigate to the C# solution folder:
-
-   ```bash
-   cd 01-problem-one/two-sum/c-sharp/<username>
-   ```
-
-2. Build the project:
-
-   ```bash
-   dotnet build
-   ```
-
-3. Run the program:
-   ```bash
-   dotnet run
-   ```
-
----
-
 ## Contributing
 
 ### How to Contribute
@@ -166,6 +131,45 @@ Use clear commit messages:
 ```
 
 ### Then open a Pull Request (PR) into main.
+
+
+---
+
+##  Running Solutions
+
+### C# Solutions
+
+**Requirements:**
+
+- .NET SDK 6.0 or higher ([Download here](https://dotnet.microsoft.com/download))
+
+**Verify .NET installation:**
+
+```bash
+dotnet --version
+```
+
+**To run a C# solution:**
+
+1. Navigate to the C# solution folder:
+
+   ```bash
+   cd 01-problem-one/two-sum/c-sharp/<username>
+   ```
+
+2. Build the project:
+
+   ```bash
+   dotnet build
+   ```
+
+3. Run the program:
+   ```bash
+   dotnet run
+   ```
+
+---
+
 
 ## ✅ Rules
 
